@@ -209,6 +209,7 @@ module.exports = {
 		'no-lone-blocks': 'error',
 		'no-lonely-if': 'error',
 		'no-negated-condition': 'error',
+		'no-magic-numbers': 'error',
 
 		// - Layout & Formatting
 		'array-bracket-spacing': ['error', 'never'],
