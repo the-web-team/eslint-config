@@ -1,5 +1,9 @@
 {
-  "name": "eslint-config-thewebteam",
+  "name": "@thewebteam/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/the-web-team/eslint-config.git"
+  },
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
