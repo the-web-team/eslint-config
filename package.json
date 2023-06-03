@@ -1,4 +1,5 @@
 {
+  "version": "2.0.0",
   "name": "@the-web-team/eslint-config",
   "repository": {
     "type": "git",
@@ -7,7 +8,6 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {

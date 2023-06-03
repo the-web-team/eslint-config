@@ -24,6 +24,8 @@ module.exports = {
 		FCC: 'readonly',
 		JSX: 'readonly',
 		FunctionalComponentWithChildren: 'readonly',
+		NextPage: 'readonly',
+		NextPageWithLayout: 'readonly',
 	},
 	overrides: [
 		{
