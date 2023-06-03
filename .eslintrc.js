@@ -258,7 +258,7 @@ module.exports = {
 				],
 				pathGroups: [
 					{ pattern: '~**', group: 'internal', position: 'before' },
-					{ patterm: '@**', group: 'external', position: 'before' },
+					{ pattern: '@**', group: 'external', position: 'before' },
 				],
 				'newlines-between': 'never',
 			},
