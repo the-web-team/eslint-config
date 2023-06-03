@@ -185,7 +185,7 @@ module.exports = {
 			'error',
 			{
 				ignoreDestructuring: true,
-				ignoreimports: true,
+				ignoreImports: true,
 				properties: 'never',
 			},
 		],
