@@ -20,7 +20,7 @@ You can set a specific commit hash in your `package.json`.
 ```json
 {
   "devDependencies": {
-    "@the-web-team/eslint-config": "https://github.com/the-web-team/eslint-config#{COMMIT_HASH}"
+    "@the-web-team/eslint-config": "github:the-web-team/eslint-config#{COMMIT_HASH}"
   }
 }
 ```
