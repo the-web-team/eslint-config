@@ -235,7 +235,7 @@ module.exports = {
 		'no-div-regex': 'error',
 		'no-multi-assign': 'error',
 		'no-multi-spaces': ['error', { ignoreEOLComments: true }],
-		'no-multiple-empty-lines': ['error', { max: 1, maxEOF: 1, maxBOF: 0 }],
+		'no-multiple-empty-lines': ['error', { max: 1, maxEOF: 1 }],
 		'no-new-wrappers': 'error',
 		'no-new-object': 'error',
 		'no-octal-escape': 'error',
@@ -294,7 +294,7 @@ module.exports = {
 		'switch-colon-spacing': 'error',
 		'template-curly-spacing': 'error',
 		'template-tag-spacing': 'error',
-		'unicode-bom': ['error', 'always'],
+		'unicode-bom': ['error', 'never'],
 		'valid-jsdoc': 'warn',
 		yoda: 'error',
 
