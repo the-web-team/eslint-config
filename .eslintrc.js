@@ -263,7 +263,7 @@ module.exports = {
 		'object-property-newline': ['error', { allowAllPropertiesOnSameLine: true }],
 		'object-shorthand': ['error', 'properties'],
 		'one-var': ['error', 'never'],
-		'operator-linebreak': ['error', 'before'],
+		'operator-linebreak': ['error', 'after'],
 		'operator-assignment': ['error', 'always'],
 		'padded-blocks': ['error', 'never'],
 		'padding-line-between-statements': [
