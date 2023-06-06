@@ -21,13 +21,6 @@ jobs:
         with:
           version: 8.6.0
       - run: pnpm i --frozen-lockfile
-      - run: npm version major
-      - id: get_version
-        run: node -e "core.setOutput('tag', require('./package').version)"
-      - uses: EndBug/add-and-commit@v9
-        with:
-          message: ${{ steps.get_version.outputs.tag }}
-          tag: ${{ steps.get_version.outputs.tag }}
       - run: pnpm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
