@@ -267,7 +267,7 @@ module.exports = {
 			},
 			{
 				blankLine: 'always',
-				pref: '*',
+				prev: '*',
 				next: 'throw',
 			},
 		],
