@@ -99,7 +99,7 @@ module.exports = {
 				},
 			},
 		],
-		'@typescript-eslint/member-ordering': 'error',
+		'@typescript-eslint/member-ordering': 'off',
 		'@typescript-eslint/method-signature-style': ['error', 'property'],
 		'@typescript-eslint/no-confusing-void-expression': 'error',
 		'@typescript-eslint/no-duplicate-type-constituents': 'error',
