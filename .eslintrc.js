@@ -110,6 +110,7 @@ module.exports = {
 		'@typescript-eslint/promise-function-async': 'error',
 		'@typescript-eslint/switch-exhaustiveness-check': 'error',
 		'@typescript-eslint/consistent-type-definitions': 'off',
+		'@typescript-eslint/non-nullable-type-assertion-style': 'off',
 
 		// - Extensions
 		'comma-dangle': 'off',
