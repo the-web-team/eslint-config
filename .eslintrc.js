@@ -136,7 +136,7 @@ module.exports = {
 		'no-loop-func': 'off',
 		'@typescript-eslint/no-loop-func': 'error',
 		'no-use-before-define': 'off',
-		'@typescript-eslint/no-use-before-define': 'error',
+		'@typescript-eslint/no-use-before-define': ['error', { variables: false }],
 		'object-curly-spacing':'off',
 		'@typescript-eslint/object-curly-spacing': ['error', 'always'],
 		'semi': 'off',
