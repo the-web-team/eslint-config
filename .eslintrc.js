@@ -265,6 +265,11 @@ module.exports = {
 				prev: '*',
 				next: 'return',
 			},
+			{
+				blankLine: 'always',
+				pref: '*',
+				next: 'throw',
+			},
 		],
 		'prefer-const': 'error',
 		'prefer-numeric-literals': 'error',
