@@ -289,7 +289,7 @@ module.exports = {
 				allowSeparatedGroups: false,
 			},
 		],
-		'space-before-function-paren': ['error', 'always'],
+		'space-before-function-paren': ['error', 'never'],
 		'space-in-parens': ['error', 'never'],
 		'switch-colon-spacing': 'error',
 		'template-curly-spacing': 'error',
