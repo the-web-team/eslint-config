@@ -391,5 +391,6 @@ module.exports = {
 		'react/jsx-one-expression-per-line': 'error',
 		'react/jsx-tag-spacing': 'error',
 		'react/prop-types': 'off',
+		'react/react-in-jsx-scope': 'off',
 	}
 }
