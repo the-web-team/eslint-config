@@ -78,7 +78,15 @@ module.exports = {
 				disallowTypeAnnotations: true,
 			},
 		],
-		'@typescript-eslint/explicit-member-accessibility': 'error',
+		'@typescript-eslint/explicit-member-accessibility': ['error', {
+			overrides: {
+				accessors: 'explicit',
+				constructors: 'off',
+				methods: 'explicit',
+				properties: 'explicit',
+				parameterProperties: 'explicit'
+			}
+		}],
 		'@typescript-eslint/member-delimiter-style': [
 			'error',
 			{
