@@ -109,6 +109,7 @@ module.exports = {
 		'@typescript-eslint/prefer-regexp-exec': 'error',
 		'@typescript-eslint/promise-function-async': 'error',
 		'@typescript-eslint/switch-exhaustiveness-check': 'error',
+		'@typescript-eslint/consistent-type-definitions': 'off',
 
 		// - Extensions
 		'comma-dangle': 'off',
