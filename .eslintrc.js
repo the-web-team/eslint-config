@@ -254,7 +254,7 @@ module.exports = {
 		'no-whitespace-before-property': 'error',
 		'object-property-newline': ['error', { allowAllPropertiesOnSameLine: true }],
 		'object-shorthand': ['error', 'properties'],
-		'one-var': ['error', 'always'],
+		'one-var': ['error', 'never'],
 		'operator-linebreak': ['error', 'before'],
 		'operator-assignment': ['error', 'always'],
 		'padded-blocks': ['error', 'never'],
